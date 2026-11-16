@@ -103,7 +103,7 @@ Summary tables the notebook computes from the features above (not stored as file
 | **Outlier** | An observation far from the rest; here, a day whose move was unusually large |
 | **Normal distribution** | The standard bell curve. Many risk models assume returns follow it |
 | **Skewness** | Whether a distribution leans to one side rather than being symmetric around its centre |
-| **Kurtosis** | How heavy a distribution's tails are. Above 3 means extreme values occur more often than a bell curve predicts |
+| **Kurtosis** | How heavy a distribution's tails are. This analysis reports excess kurtosis, where a normal distribution scores 0; above 0 means extreme values occur more often than a bell curve predicts |
 | **Normality test (D'Agostino)** | Checks whether data plausibly follows a bell curve. A p-value below 0.05 says it does not |
 | **Q-Q plot** | Chart comparing actual data against what a bell curve would produce. Points on the straight line mean a match; points curving away at the ends mean extreme values are more common than the model expects |
 | **t-test** | Compares the averages of two groups to judge whether the difference is larger than chance alone would produce |
